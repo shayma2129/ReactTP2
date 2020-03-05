@@ -1,0 +1,41 @@
+.Header {
+/*background-color: red;*/
+height: 100px;
+text-align: center;
+/*background-image: url(../header/images.jpg);*/
+
+
+}
+.Header img{
+    height: 100px;
+    width: 100%;
+    
+}
+
+
+.container{
+  clear:both;
+  overflow:auto;
+  background-image: url(../header/images.jpg);
+  height: 100px;
+  text-align: center;
+}
+
+.navbar{float:right;}
+
+.logo img{float:left; margin-left: 100px; width: 120px}
+.list-ul{
+    margin-right: 100px;
+    margin-top: 20px
+}
+.list-ul li{
+  display: inline-block; padding:10px;
+  color:  #bdb8d7;
+  font-size:20px; font-family:raleway;
+  
+}
+
+.list-ul li:hover{
+  color:#5DADE2;
+  
+}
